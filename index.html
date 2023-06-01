@@ -15,67 +15,17 @@
             <nav>
                 <img src="" class="logo">
                 <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#portfolio">projects</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contact">contact</a></li>
                     <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <h1>Hi, I'm <span>Grace</span><br>Liu.</h1>
-            </div>
-        </div>
-    </div>
-
-    <!-- about -->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/profile_pic.png">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>I'm currently an undergraduate student at MIT majoring
-                        in Course 18 (Mathematics). Outside of class, I like
-                        playing piano and reading fantasy novels.
-                    </p>
-                    
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('Coursework')">Coursework</p>
-
-                            <p class="tab-links" onclick="opentab('Experiences')">Experiences</p>
-                        </div>
-                        <div class="tab-contents active-tab" id="Coursework">
-                            <ul>
-                                <li><span>Already Taken</span><br>
-                                    Fundamentals of Programming (6.009) <br>
-                                    Mathematics for Computer Science (6.042) <br>
-                                    Linear Algebra (18.06) <br>
-                                    Multivariable Calculus (18.02) <br>
-                                    Physics — Electricity and Magnetism (8.02)
-                                </li>
-                                <li><span>Currently Taking</span><br>
-                                None (summer break!)
-                                </li>
-                                <li><span>Looking Ahead :)</span><br>
-                                Differential Equations (18.03) <br>
-                                Theory of Computation (18.404) <br>
-                                Introduction to Algorithms (6.1210) <br>
-                                Probability and Random Variables (18.600)
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="Experiences">
-                            <ul>
-                                <li><span>Code It</span><br>Mentor (Jan 2023 - present)</li>
-                                <li><span>HMMT</span><br>Registration Director (May 2023 - present) <br> Officer (Sep 2022 - May 2023)</li>
-                                <li><span>Society of Women Engineers</span><br>Outreach Officer (Jan 2023 - May 2023)</li>
-                            </ul>
-                        </div>
-                </div>
+                <h1>hi, i'm <span>grace liu.</span></h1>
+                <p>math @ mit | class of '26 | gjliu@mit.edu</p>
             </div>
         </div>
     </div>
@@ -83,43 +33,90 @@
     <!-- Projects -->
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">My Work</h1>
+            <h1 class="sub-title">projects</h1>
             <div class="work-list">
                 <div class="work">
                     <img src="images/calculator.png">
                     <div class="layer">
                         <h3>Calculator</h3>
-                        <p>Scientific calculator with 
-                            graphic design.
+                        <p>HTML/CSS, Javascript
                         </p>
-                        <a href="#"><i class="fa-solid fa-link" style="color: #f0f5ff;"></i></a>
+                        <a href="https://grace0124.github.io/calculator/"><i class="fa-solid fa-link" style="color: #f0f5ff;"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/lisp.png">
                     <div class="layer">
                         <h3>Lisp Interpreter</h3>
-                        <p>Lisp interpreter with functionality
-                            for operations and functions.
+                        <p>Python
                         </p>
                         <a href="#"><i class="fa-solid fa-link" style="color: #f0f5ff;"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn"> See more</a>
         </div>
     </div>
+
+        <!-- about -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/profile_pic.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">about me</h1>
+                        <p>I'm an MIT '26 student majoring in Mathematics.
+                            Currently, I'm working as a community engagement 
+                            intern at the Boston Neighborhood Chinatown Center.
+                            Outside of class, I like
+                            playing piano and reading fantasy novels.
+                        </p>
+                        
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('Coursework')">coursework</p>
+    
+                                <p class="tab-links" onclick="opentab('Experiences')">experiences</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="Coursework">
+                                <ul>
+                                    <li><span>already taken</span><br>
+                                        fundamentals of programming (6.009) <br>
+                                        mathematics for computer science (6.042) <br>
+                                        linear algebra (18.06) <br>
+                                    </li>
+                                    <li><span>currently taking</span><br>
+                                    none (summer break!)
+                                    </li>
+                                    <li><span>looking ahead :)</span><br>
+                                    differential equations (18.03) <br>
+                                    theory of computation (18.404) <br>
+                                    introduction to algorithms (6.1210) <br>
+                                    probability and random variables (18.600)
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Experiences">
+                                <ul>
+                                    <li><span>clubs</span><br>codeit, hmmt, society of women engineers</li>
+                                    <li><span>programs</span><br>startmit, pkg social impact internship</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     <!-- Contact -->
     <div id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
+                    <h1 class="sub-title">contact</h1>
                     <p><i class="fa-solid fa-envelope"></i>gjliu@mit.edu</p>
                     <div class="social-icons">
-                        <a href="linkedin"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="march 2023 resume.pdf"  id="resume-link">Resume</a>
+                        <a href="https://www.linkedin.com/in/grace-j-liu/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="march 2023 resume.pdf"  id="resume-link">resume</a>
                     </div>
                 </div>
             </div>
