@@ -11,23 +11,11 @@
 </head>
 <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <img src="" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#header">home</a></li>
-                    <li><a href="#portfolio">projects</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#contact">contact</a></li>
-                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <h1>hi, i'm <span>grace liu.</span></h1>
-                <p>math @ mit | class of '26 | gjliu@mit.edu</p>
-            </div>
+        <div class="header-text container">
+            <h1>hi, i'm <span>grace liu.</span></h1>
+            <p>math @ mit | class of '26 | gjliu@mit.edu</p>
         </div>
+        
     </div>
 
     <!-- Projects -->
@@ -39,73 +27,19 @@
                     <img src="images/calculator.png">
                     <div class="layer">
                         <h3>Calculator</h3>
-                        <p>HTML/CSS, Javascript
-                        </p>
-                        <a href="https://grace0124.github.io/calculator/"><i class="fa-solid fa-link" style="color: #f0f5ff;"></i></a>
+                        <a href="https://github.com/Grace0124/calculator"><i class="fa-solid fa-link" style="color: #f0f5ff;"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/lisp.png">
                     <div class="layer">
                         <h3>Lisp Interpreter</h3>
-                        <p>Python
-                        </p>
-                        <a href="#"><i class="fa-solid fa-link" style="color: #f0f5ff;"></i></a>
+                        <a href="https://github.com/Grace0124/LISP"><i class="fa-solid fa-link" style="color: #f0f5ff;"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-        <!-- about -->
-        <div id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="about-col-1">
-                        <img src="images/profile_pic.png">
-                    </div>
-                    <div class="about-col-2">
-                        <h1 class="sub-title">about me</h1>
-                        <p>I'm an MIT '26 student majoring in Mathematics.
-                            Currently, I'm working as a community engagement 
-                            intern at the Boston Neighborhood Chinatown Center.
-                            Outside of class, I like
-                            playing piano and reading fantasy novels.
-                        </p>
-                        
-                            <div class="tab-titles">
-                                <p class="tab-links active-link" onclick="opentab('Coursework')">coursework</p>
-    
-                                <p class="tab-links" onclick="opentab('Experiences')">experiences</p>
-                            </div>
-                            <div class="tab-contents active-tab" id="Coursework">
-                                <ul>
-                                    <li><span>already taken</span><br>
-                                        fundamentals of programming (6.009) <br>
-                                        mathematics for computer science (6.042) <br>
-                                        linear algebra (18.06) <br>
-                                    </li>
-                                    <li><span>currently taking</span><br>
-                                    none (summer break!)
-                                    </li>
-                                    <li><span>looking ahead :)</span><br>
-                                    differential equations (18.03) <br>
-                                    theory of computation (18.404) <br>
-                                    introduction to algorithms (6.1210) <br>
-                                    probability and random variables (18.600)
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="tab-contents" id="Experiences">
-                                <ul>
-                                    <li><span>clubs</span><br>codeit, hmmt, society of women engineers</li>
-                                    <li><span>programs</span><br>startmit, pkg social impact internship</li>
-                                </ul>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
     <!-- Contact -->
     <div id="contact">
